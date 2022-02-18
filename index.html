@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta  charset="UTF-8"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css"/>
+</head>
+<!--front page of game and start button-->
+<div>
+    <h1>Coding Quiz</h1>
+    <p>Try to answer as many questions in this quiz. You have 6 seconds for each question! See if you can beat your high score</p>
+    <button class="start"> Start Game</button>
+    <div id="quiz" style="display: none;"></div>
+    <div id="questions"><p>Question</p></div>
+    <div id="timer">
+        <div id="counter">6</div>
+        </div>
+        <div id="choices">
+            <div class="choices" id="A" onclick="checkAnswer('A')">A</div>
+            <div class="choices" id="B" onclick="checkAnswer('B')">B</div>
+            <div class="choices" id="C" onclick="checkAnswer('C')">C</div>
+        </div>
+       
+</div>
+<!--Question1-->
+<body>
+<div class="container">
+    <div id="question-container" class="hide">
+        <div id="answer-button" class="btn"></div>
+          
+
+
+
+
+<div id="score-container"></div>
+    
+</div>
+
+
+<script> src="./assets/script.js" </script>
+</body>
+</html>
